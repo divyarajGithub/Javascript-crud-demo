@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    margin:1rem;
+}
+.tableForShow{
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+
+}
+div.tableForShow{
+    margin-top: 2rem;
+}
+table,td,th{
+    border:2px solid black; 
+    border-collapse: collapse;
+    padding:0.8rem;
+}
+thead{
+    background-color: bisque;
+}
+table{
+    background-color: rgb(238, 242, 243);
+    margin-top: 2rem;
+    text-align: center;
+}
+div{
+    margin:1rem;
+}
+input[type="text"]{
+    width:20rem;
+}
+input{
+    padding:0.2rem;
+    outline:none;
+    border-radius: 5px;
+}
+#submitBtn{
+    width:8rem;
+    padding:0.4rem;
+    cursor: pointer;
+    /* background-color: rgb(60, 45, 45); */
+    /* color: white;   */
+    font-weight: bold;
+}
+#submitBtn:hover{
+    background-color: grey;
+}
+.searchDiv{
+    width: 54%;
+    margin:auto;
+    margin-top: 7rem;
+    margin-left: 15rem;
+    display: flex;
+    justify-content: center;
+}
+#sorting{
+    margin-left :22rem;
+    margin-top: 2rem;
+    height: 2rem;
+    width: 6rem;
+    
+}
+#myForm{
+    border:2px solid black;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    width:64rem;
+}
+.updateBtn,.cancelBtn{
+    padding:0.4rem;
+    cursor: pointer;
+    background-color: rgb(60, 45, 45);
+    color: white;  
+    font-weight: bold;
+    margin: 1rem;
+}
+.updateBtn:hover,.cancelBtn:hover{
+    background-color: grey;
+}
+.searchInput{
+    outline:none;
+    padding:0.3rem;
+    margin-top: 2rem;
+}
+.editBtn{
+    padding:0.1rem;
+    margin:0.2rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deleteBtn{
+    padding:0.1rem;
+    margin:0.2rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#searchBtn{
+    margin-left:0.3rem;
+    padding:0.3rem;
+    cursor: pointer;   
+}
+@media only screen and (max-width:995px){
+    td,th{
+        display: block;
+    }
+}
